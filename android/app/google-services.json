@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "256338910456",
+    "firebase_url": "https://proyecto-iot-f18db-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-iot-f18db",
+    "storage_bucket": "proyecto-iot-f18db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256338910456:android:f1583b8cc01f6cffa1ef0d",
+        "android_client_info": {
+          "package_name": "com.example.rooms_residencias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW9ikWn_ej54Q1kE_TgSbRqsh7JhHuYFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
