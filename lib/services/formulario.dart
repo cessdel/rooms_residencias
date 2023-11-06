@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:rooms/services/auth.dart';
+import 'package:rooms_residencias/services/auth.dart';
 
 class Formulario extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();

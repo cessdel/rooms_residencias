@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
+import 'package:rooms_residencias/addPaciente.dart';
 import 'package:rooms_residencias/addRoom.dart';
 import 'package:rooms_residencias/pacienteProvider.dart';
+import 'package:rooms_residencias/services/formulario.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -90,6 +92,17 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => AddRoom()),
+          );
+        },
+        child: Icon(Icons.add),
+        backgroundColor: Colors.teal,
+        tooltip: 'Añade otra habitación',
       ),
     );
   }
